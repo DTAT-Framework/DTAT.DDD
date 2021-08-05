@@ -6,12 +6,13 @@
 		<Authors>Mr. Dariush Tasdighi</Authors>
 		<Company>DTAT</Company>
 		<Product>DTAT.DDD</Product>
-		<Description>Dariush Tasdighi Framework For Domain Driven Design</Description>
+		<Description>Dariush Tasdighi Framework For Domain Driven Design - Based on MediatR</Description>
 		<Copyright>2021</Copyright>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://DTAT.ir</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/DTAT-Framework/DTAT.DDD</RepositoryUrl>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageTags>DTAT,DDD,Domain,Driven,Design,Framework,MediatR,Repository,UnitOfWork,DomainEvent</PackageTags>
 	</PropertyGroup>
 
 	<ItemGroup>
