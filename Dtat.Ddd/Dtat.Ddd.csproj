@@ -13,6 +13,7 @@
 		<RepositoryUrl>https://github.com/DTAT-Framework/DTAT.DDD</RepositoryUrl>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageTags>DTAT,DDD,Domain,Driven,Design,Framework,MediatR,Repository,UnitOfWork,DomainEvent</PackageTags>
+		<Version>1.0.1</Version>
 	</PropertyGroup>
 
 	<ItemGroup>
