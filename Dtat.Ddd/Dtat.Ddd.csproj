@@ -2,6 +2,16 @@
 
 	<PropertyGroup>
 		<TargetFramework>net5.0</TargetFramework>
+		<PackageId>DTAT.DDD</PackageId>
+		<Authors>Mr. Dariush Tasdighi</Authors>
+		<Company>DTAT</Company>
+		<Product>DTAT.DDD</Product>
+		<Description>Dariush Tasdighi Framework For Domain Driven Design</Description>
+		<Copyright>2021</Copyright>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://DTAT.ir</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/DTAT-Framework/DTAT.DDD</RepositoryUrl>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<ItemGroup>
