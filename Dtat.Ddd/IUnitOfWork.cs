@@ -2,6 +2,6 @@
 {
 	public interface IUnitOfWork : IQueryUnitOfWork
 	{
-		System.Threading.Tasks.Task SaveAsync();
+		System.Threading.Tasks.Task<int> SaveAsync();
 	}
 }

@@ -6,7 +6,7 @@
 			(T entity, System.Threading.CancellationToken cancellationToken = default);
 
 		System.Threading.Tasks.Task AddRangeAsync
-			(System.Collections.Generic.IList<IAggregateRoot>
+			(System.Collections.Generic.IEnumerable<T>
 			entities, System.Threading.CancellationToken cancellationToken = default);
 
 		System.Threading.Tasks.Task UpdateAsync
@@ -14,6 +14,10 @@
 
 		System.Threading.Tasks.Task RemoveAsync
 			(T entity, System.Threading.CancellationToken cancellationToken = default);
+
+		System.Threading.Tasks.Task RemoveRangeAsync
+			(System.Collections.Generic.IEnumerable<T>
+			entities, System.Threading.CancellationToken cancellationToken = default);
 
 		System.Threading.Tasks.Task<bool> RemoveByIdAsync
 			(System.Guid id, System.Threading.CancellationToken cancellationToken = default);

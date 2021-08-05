@@ -2,7 +2,7 @@
 {
 	public interface IQueryRepository<T> where T : IAggregateRoot
 	{
-		System.Threading.Tasks.Task<System.Collections.Generic.IList<T>>
+		System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<T>>
 			GetAllAsync(System.Threading.CancellationToken cancellationToken = default);
 
 		System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<T>>
