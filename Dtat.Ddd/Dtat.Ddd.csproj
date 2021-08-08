@@ -13,11 +13,20 @@
 		<RepositoryUrl>https://github.com/DTAT-Framework/DTAT.DDD</RepositoryUrl>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageTags>DTAT,DDD,Domain,Driven,Design,Framework,MediatR,Repository,UnitOfWork,DomainEvent</PackageTags>
-		<Version>1.0.2</Version>
+		<Version>1.0.3</Version>
+		<PackageIcon>DTAT03.png</PackageIcon>
+		<PackageIconUrl />
 	</PropertyGroup>
 
 	<ItemGroup>
 		<PackageReference Include="MediatR" Version="9.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="C:\Users\dariu\OneDrive\Pictures\DTAT\DTAT03.png">
+	    <Pack>True</Pack>
+	    <PackagePath></PackagePath>
+	  </None>
 	</ItemGroup>
 
 </Project>
